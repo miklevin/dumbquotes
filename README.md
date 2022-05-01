@@ -9,5 +9,6 @@
 ## How to use
 
 ```python
-vanilla = dumbquotes(contains_smart_quotes)
+text = "I’m in a “cottage” in the Poconos."
+vanilla = dumbquote(text)
 ```

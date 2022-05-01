@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: Title
-      url: core.html
+      url: Untitled.html
     output: web
     title: dumbquotes
   output: web
