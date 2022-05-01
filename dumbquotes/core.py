@@ -11,7 +11,6 @@ def dumbquote(text):
     """Return text with smart quotes and apostrophes replaced
     with dumb ones."""
 
-    text = "I’m in a “cottage” in the Poconos."
     SINGLE = re.compile("[‘’]")
     DOUBLE = re.compile("[“”]")
     single_replaced = SINGLE.sub("'", text)
